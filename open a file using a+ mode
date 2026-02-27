@@ -1,0 +1,10 @@
+file = open("demo.txt", "a+")
+
+file.write("22")   # Appends text at the end
+
+file.seek(0)            # Move pointer to beginning for reading
+data = file.read()
+
+print(data)
+
+file.close()
