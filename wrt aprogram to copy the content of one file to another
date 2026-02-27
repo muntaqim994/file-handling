@@ -1,0 +1,5 @@
+with open("demo.txt","r") as file:
+    data=file.read()
+with open("abcd.txt","w") as file1 :
+    file1.write(data)
+print("successful")
