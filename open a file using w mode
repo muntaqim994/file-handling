@@ -1,0 +1,4 @@
+file=open("example.txt","w")
+content=file.readline()
+print(content)
+file.close()
