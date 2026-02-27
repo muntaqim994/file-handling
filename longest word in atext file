@@ -1,0 +1,9 @@
+with open("demo.txt",'r') as file:
+    word=file.read().split()
+    longest=word[0]
+    for i in word:
+        if len(i)>=len(longest):
+            longest=i
+print("Longest word is:", longest)
+                
+# print(f"longest word is {max(word,key=len)}")
