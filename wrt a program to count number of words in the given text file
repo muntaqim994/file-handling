@@ -1,0 +1,6 @@
+with open("demo.txt", "r") as file:
+    data = file.read()          # Read full content
+    words = data.split()        # Split into words
+    count = len(words)          # Count words
+
+print("Number of words:", count)
