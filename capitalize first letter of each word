@@ -1,0 +1,4 @@
+with open("demo.txt",'r') as file:
+    word=file.read().split()
+    for i in word:
+        print(i.title())
