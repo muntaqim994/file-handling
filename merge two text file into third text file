@@ -1,0 +1,9 @@
+with open("abc.txt","r") as file1,open("abcd.txt","r") as file2 :
+    data1=file1.read()
+    data2=file2.read()
+
+with open("abcde.txt","w") as file3:
+    file3.write(data1)
+    file3.write(data2)
+
+print("Files merged successfully!")
