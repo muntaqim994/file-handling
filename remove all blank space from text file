@@ -1,0 +1,5 @@
+with open("demo.txt",'r') as file:
+    data = file.read().replace(" ","")
+with open("demo.txt",'w') as file:
+    file.write(data)
+print("All spaces removed successfully!")
