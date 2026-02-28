@@ -1,0 +1,6 @@
+
+with open("demo.txt",'r') as file:
+    data = file.read()
+with open("demo1.txt",'a') as file:
+    file.write(data)
+print("Append  successfully!")
