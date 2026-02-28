@@ -1,0 +1,11 @@
+with open("demo.txt", "r") as file:
+    data = file.read()
+
+characters = len(data)
+words = len(data.split())
+lines = len(data.splitlines())
+
+print("----- File Summary -----")
+print("Total Lines      :", lines)
+print("Total Words      :", words)
+print("Total Characters :", characters)
