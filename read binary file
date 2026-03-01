@@ -1,0 +1,6 @@
+f1=open("anime.png","rb")
+if(f1.readable()):
+    print(f1.read)
+else:
+    print("file is in writable mode")
+f1.close()
