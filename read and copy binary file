@@ -1,0 +1,10 @@
+f1=open("anime.png","rb")
+data=f1.read()
+f1.close()
+f2=open("demo.png","wb")
+if(f2.writable()):
+    f2.write(data)
+else:
+    print("readable mode")
+print("data copied")
+f2.close()
